@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EGCodeEdit.vcxproj" Id="57177c04-c12c-4f7b-a8ce-4818187d19d1" />
+</Solution>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lexilla">
+      <UniqueIdentifier>{de700aa9-c424-4fa7-8ae3-86f3db3276ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scintilla">
+      <UniqueIdentifier>{8f57a22a-7c0a-4ada-b90b-750d5104543e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
