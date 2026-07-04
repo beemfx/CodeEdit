@@ -4,4 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="EGCodeEdit.vcxproj" Id="57177c04-c12c-4f7b-a8ce-4818187d19d1" />
+  <Project Path="TestEditor.vcxproj" Id="868414ec-137d-4468-b778-d88272f07ac8">
+    <BuildDependency Project="EGCodeEdit.vcxproj" />
+  </Project>
 </Solution>
