@@ -21,20 +21,18 @@ exit 0
 	if not exist "..\_Dist" mkdir "..\_Dist"
 	if not exist "..\_Dist\Bin" mkdir "..\_Dist\Bin"
 	if not exist "..\_Dist\Bin\%BUILD_DIR%" mkdir "..\_Dist\Bin\%BUILD_DIR%"
-	if not exist "..\_Dist\lexilla" mkdir "..\_Dist\lexilla"
-	if not exist "..\_Dist\lexilla\include" mkdir "..\_Dist\lexilla\include"
-	if not exist "..\_Dist\scintilla" mkdir "..\_Dist\scintilla"
-	if not exist "..\_Dist\scintilla\include" mkdir "..\_Dist\scintilla\include"
+	if not exist "..\_Dist\include" mkdir "..\_Dist\include"
 exit /b 0
 
 :CopyBinaries
 	echo Copying binaries...
 	xcopy "..\_Build\Bin\%BUILD_DIR%\*.dll" "..\_Dist\Bin\%BUILD_DIR%" /Y
+	xcopy "..\_Build\Bin\%BUILD_DIR%\*.lib" "..\_Dist\Bin\%BUILD_DIR%" /Y
 exit /b 0
 
 :CopyHeaders
-	xcopy "..\lexilla\include\*.h" "..\_Dist\lexilla\include" /Y
-	xcopy "..\scintilla\include\*.h" "..\_Dist\scintilla\include" /Y
+	xcopy "..\lexilla\include\*.h" "..\_Dist\include" /Y
+	xcopy "..\scintilla\include\*.h" "..\_Dist\include" /Y
 exit /b 0
 
 :CopyLicense
