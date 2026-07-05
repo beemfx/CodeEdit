@@ -437,7 +437,7 @@
     <None Include="..\scintilla\win32\SciTE.properties" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\ext\res\EGCodeEdit.rc" />
+    <ResourceCompile Include="..\ext\res\CodeEdit.rc" />
     <ResourceCompile Include="..\lexilla\src\LexillaVersion.rc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>

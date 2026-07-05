@@ -828,7 +828,7 @@
     <ResourceCompile Include="..\scintilla\win32\ScintRes.rc">
       <Filter>scintilla\win32</Filter>
     </ResourceCompile>
-    <ResourceCompile Include="..\ext\res\EGCodeEdit.rc">
+    <ResourceCompile Include="..\ext\res\CodeEdit.rc">
       <Filter>ext\res</Filter>
     </ResourceCompile>
   </ItemGroup>
