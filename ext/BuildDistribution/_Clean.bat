@@ -1,0 +1,3 @@
+echo Cleaning distribution...
+
+rmdir /S /Q "..\_Dist"
