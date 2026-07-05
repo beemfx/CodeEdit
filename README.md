@@ -1,4 +1,4 @@
-# EGCodeEdit
+# CodeEdit
 
 Utility library that combines Lexilla and Scintilla into one library.
 
